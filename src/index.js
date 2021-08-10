@@ -4,10 +4,11 @@ import ReactDOM  from "react-dom"
 import TodoContainer from "./functionBased/components/TodoContainer"
 
 //importing Browser Router from react-router-dom
-import {BrowserRouter as Router} from "react-router-dom"
+import {HashRouter as Router} from "react-router-dom"
 
 //stylesheet
 import "./functionBased/App.css"
+
 ReactDOM.render(
     <React.StrictMode>
         <Router>
